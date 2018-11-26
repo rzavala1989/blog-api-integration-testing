@@ -12,11 +12,9 @@ app.use(express.static('public'));
 
 
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/views/index.html');
-});
 
-app.use('/blogposts', blogPostsRouter);
+
+app.use('/blog-posts', blogPostsRouter);
 
 
 
