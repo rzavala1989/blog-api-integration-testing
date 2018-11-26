@@ -1,0 +1,31 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "description": "blog api challenge for thinkful",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzavala1989/blog-api-rz.git"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "NodeJS"
+  ],
+  "author": "Ricardo Zavala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzavala1989/blog-api-rz/issues"
+  },
+  "homepage": "https://github.com/rzavala1989/blog-api-rz#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
